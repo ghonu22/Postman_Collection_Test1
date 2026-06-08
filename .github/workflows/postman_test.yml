@@ -28,4 +28,4 @@ jobs:
       # Step 4: Run the exported Postman collection
       - name: Run Postman Collection
         run: |
-          newman run .MyMiniCollection.postman_collection.json -e ./MiniPostman1.postman_environment.json
+          newman run ./MyMiniCollection.postman_collection.json -e ./MiniPostman1.postman_environment.json
